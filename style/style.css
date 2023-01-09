@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container-fluid {
+    background-image: linear-gradient(to left, #005AA7, #FFFDE4);
+    
+}
+    
+/* .view{ 
+
+    background-image: url(../img/jellyfish.JPG);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+} */
+
+.navbar-inverse {
+    /* background-color: aliceblue; */
+    background-color: #ffffff;
+    border: 0ch;
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgb(153, 151, 151);
+    font-size: large;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    /* color: #ffffff; */
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    font-weight: 400;
+}
+
+/* ---------------------------index------------------------  */
+
+.h2,
+h2 {
+    text-align: center;
+    margin-top: 0;
+    /* padding-bottom: 20px; */
+    color: #3b579d;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    /* height: 600px; */
+}
+
+
+
+
+/* ------------------------about------------------------ */
+
+.media:first-child {
+    margin: 20px auto;
+}
+
+
+
+
+/* ------------------------travel tips------------------- */
+
+li {
+    list-style-type: square;
+}
+
+
+
+/* ----------------------Destinations------------------- */
+
+
+
+img {
+    height: 200px;
+    width: 100%;
+    /* padding: 20px; */
+
+
+}
+
+.card {
+    padding: 30px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+
+}
+
+/* .container-fluid{
+    background-image: none;
+} */
+
+
+/* -----------------------Contuct us------------------------ */
+
+.container-fluidcontactus {
+
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.row {
+    margin: 30px auto;
+
+}
+
+
+.input-group {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #C4E0E5;
+   
+
+}
+
+.form-group {
+    margin: 15px auto;
+
+}
+
+.btn-primary {
+    border-color: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {}
+
+button {
+    padding: 10px 15px;
+    font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #3b579d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #0082ca;
+}
+
+button:active {
+    background-color: #0082ca;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}
