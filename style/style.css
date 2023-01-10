@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Roboto;
+    font-family: Roboto-Regular;
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
@@ -16,14 +16,6 @@
     
 }
     
-/* .view{ 
-
-    background-image: url(../img/jellyfish.JPG);
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center;
-} */
-
 .navbar-inverse {
     /* background-color: aliceblue; */
     background-color: #ffffff;
@@ -35,21 +27,11 @@
     font-size: large;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    /* color: #ffffff; */
-}
 
-.container-fluid>.navbar-collapse,
-.container-fluid>.navbar-header,
-.container>.navbar-collapse,
-.container>.navbar-header {
-    font-weight: 400;
-}
 
 /* ---------------------------index------------------------  */
 
-.h2,
-h2 {
+.h2,h2 {
     text-align: center;
     margin-top: 0;
     /* padding-bottom: 20px; */
@@ -66,7 +48,6 @@ h2 {
 
 
 
-
 /* ------------------------about------------------------ */
 
 .media:first-child {
@@ -76,10 +57,19 @@ h2 {
 
 
 
+
 /* ------------------------travel tips------------------- */
 
 li {
     list-style-type: square;
+}
+
+h1{
+    margin: 0 auto;
+}
+.h2, h2 {
+   
+    text-align: center;
 }
 
 
@@ -117,11 +107,12 @@ img {
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
+  
 
 }
 
 .row {
-    margin: 30px auto;
+    margin: 38px auto;
 
 }
 
@@ -137,7 +128,7 @@ img {
     padding: 20px;
     border-radius: 30px;
     background-color: #C4E0E5;
-   
+    margin-bottom: 62px;
 
 }
 
@@ -149,12 +140,6 @@ img {
 .btn-primary {
     border-color: none;
 }
-
-button,
-input,
-optgroup,
-select,
-textarea {}
 
 button {
     padding: 10px 15px;
@@ -177,4 +162,21 @@ button:active {
     background-color: #0082ca;
     box-shadow: 0 4px #666;
     transform: translateY(4px);
+}
+button, input, select, textarea{
+resize: none;
+outline:none ;
+}
+
+/* -------------------footer----------------------- */
+
+footer{
+    padding: 8px;
+    background-image: linear-gradient(to right, #005AA7, #FFFDE4);
+     
+}
+footer p {
+    padding: 8px;
+    color: #000000;
+    font-size: 15px;
 }
