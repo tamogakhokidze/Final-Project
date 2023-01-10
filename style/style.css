@@ -17,7 +17,6 @@
 }
     
 .navbar-inverse {
-    /* background-color: aliceblue; */
     background-color: #ffffff;
     border: 0ch;
 }
@@ -34,7 +33,7 @@
 .h2,h2 {
     text-align: center;
     margin-top: 0;
-    /* padding-bottom: 20px; */
+    
     color: #3b579d;
 }
 
@@ -43,7 +42,7 @@
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    /* height: 600px; */
+    
 }
 
 
@@ -81,21 +80,18 @@ h1{
 img {
     height: 200px;
     width: 100%;
-    /* padding: 20px; */
+   
 
 
 }
 
 .card {
     padding: 30px;
-    /* margin-left: 50px;
-    margin-right: 50px; */
+    
 
 }
 
-/* .container-fluid{
-    background-image: none;
-} */
+
 
 
 /* -----------------------Contuct us------------------------ */
